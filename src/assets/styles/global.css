@@ -1,7 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     background-color: #111;
     color: #fff;
-    padding: 0 20px;
+    padding: 30px 20px;
+    font-family: 'Golos text', 'sans-serif';
 
 }
 
+h1 {
+    margin-bottom: 20px;
+}
+
+.btn {
+   display: block;
+    padding: 6px 40px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #afcde8;
+}
